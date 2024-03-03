@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98347CB22B94658F009D4D1D /* AWSCognitoAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98347CA82B946566009D4D1D /* AWSCognitoAuth.xcframework */; };
+		98347CB32B94658F009D4D1D /* AWSCognitoAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98347CA82B946566009D4D1D /* AWSCognitoAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98347CB42B946590009D4D1D /* AWSCognitoIdentityProvider.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98347CA92B946567009D4D1D /* AWSCognitoIdentityProvider.xcframework */; };
+		98347CB52B946590009D4D1D /* AWSCognitoIdentityProvider.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98347CA92B946567009D4D1D /* AWSCognitoIdentityProvider.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98347CB62B946591009D4D1D /* AWSCognitoIdentityProviderASF.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98347CAA2B946567009D4D1D /* AWSCognitoIdentityProviderASF.xcframework */; };
+		98347CB72B946591009D4D1D /* AWSCognitoIdentityProviderASF.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98347CAA2B946567009D4D1D /* AWSCognitoIdentityProviderASF.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98347CB82B946592009D4D1D /* AWSCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98347CAE2B946571009D4D1D /* AWSCore.xcframework */; };
+		98347CB92B946592009D4D1D /* AWSCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98347CAE2B946571009D4D1D /* AWSCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98347CBA2B946593009D4D1D /* AWSIoT.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98347CB02B94657D009D4D1D /* AWSIoT.xcframework */; };
+		98347CBB2B946593009D4D1D /* AWSIoT.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98347CB02B94657D009D4D1D /* AWSIoT.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98A1D39A2B94332B002A908F /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1D3992B94332B002A908F /* ConnectionViewController.swift */; };
+		98A1D39C2B9456C4002A908F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1D39B2B9456C4002A908F /* TabBarController.swift */; };
+		98A1D39E2B945818002A908F /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1D39D2B945818002A908F /* SubscribeViewController.swift */; };
+		98A1D3A02B94582B002A908F /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1D39F2B94582B002A908F /* PublishViewController.swift */; };
 		98DF219E2B9314410046FB62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF219D2B9314410046FB62 /* AppDelegate.swift */; };
 		98DF21A02B9314410046FB62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF219F2B9314410046FB62 /* SceneDelegate.swift */; };
-		98DF21A22B9314410046FB62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF21A12B9314410046FB62 /* ViewController.swift */; };
 		98DF21A52B9314410046FB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DF21A32B9314410046FB62 /* Main.storyboard */; };
 		98DF21A72B9314420046FB62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DF21A62B9314420046FB62 /* Assets.xcassets */; };
 		98DF21AA2B9314420046FB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DF21A82B9314420046FB62 /* LaunchScreen.storyboard */; };
+		98DF21C52B9316950046FB62 /* AWSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF21C42B9316950046FB62 /* AWSConstants.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		98DF21BE2B9315B30046FB62 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				98347CB72B946591009D4D1D /* AWSCognitoIdentityProviderASF.xcframework in Embed Frameworks */,
+				98347CB52B946590009D4D1D /* AWSCognitoIdentityProvider.xcframework in Embed Frameworks */,
+				98347CB92B946592009D4D1D /* AWSCore.xcframework in Embed Frameworks */,
+				98347CB32B94658F009D4D1D /* AWSCognitoAuth.xcframework in Embed Frameworks */,
+				98347CBB2B946593009D4D1D /* AWSIoT.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		98347CA82B946566009D4D1D /* AWSCognitoAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AWSCognitoAuth.xcframework; sourceTree = "<group>"; };
+		98347CA92B946567009D4D1D /* AWSCognitoIdentityProvider.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AWSCognitoIdentityProvider.xcframework; sourceTree = "<group>"; };
+		98347CAA2B946567009D4D1D /* AWSCognitoIdentityProviderASF.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AWSCognitoIdentityProviderASF.xcframework; sourceTree = "<group>"; };
+		98347CAE2B946571009D4D1D /* AWSCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AWSCore.xcframework; sourceTree = "<group>"; };
+		98347CB02B94657D009D4D1D /* AWSIoT.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AWSIoT.xcframework; sourceTree = "<group>"; };
+		98A1D3992B94332B002A908F /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		98A1D39B2B9456C4002A908F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		98A1D39D2B945818002A908F /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+		98A1D39F2B94582B002A908F /* PublishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
 		98DF219A2B9314410046FB62 /* AWSIoTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSIoTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DF219D2B9314410046FB62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98DF219F2B9314410046FB62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		98DF21A12B9314410046FB62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98DF21A42B9314410046FB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98DF21A62B9314420046FB62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98DF21A92B9314420046FB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98DF21AB2B9314420046FB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98DF21C42B9316950046FB62 /* AWSConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSConstants.swift; sourceTree = "<group>"; };
+		98DF21D42B9323470046FB62 /* AWSIoTDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AWSIoTDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98347CB62B946591009D4D1D /* AWSCognitoIdentityProviderASF.xcframework in Frameworks */,
+				98347CB82B946592009D4D1D /* AWSCore.xcframework in Frameworks */,
+				98347CB22B94658F009D4D1D /* AWSCognitoAuth.xcframework in Frameworks */,
+				98347CB42B946590009D4D1D /* AWSCognitoIdentityProvider.xcframework in Frameworks */,
+				98347CBA2B946593009D4D1D /* AWSIoT.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +89,7 @@
 			children = (
 				98DF219C2B9314410046FB62 /* AWSIoTDemo */,
 				98DF219B2B9314410046FB62 /* Products */,
+				98DF21B12B93154E0046FB62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +104,32 @@
 		98DF219C2B9314410046FB62 /* AWSIoTDemo */ = {
 			isa = PBXGroup;
 			children = (
+				98DF21D42B9323470046FB62 /* AWSIoTDemo.entitlements */,
 				98DF219D2B9314410046FB62 /* AppDelegate.swift */,
 				98DF219F2B9314410046FB62 /* SceneDelegate.swift */,
-				98DF21A12B9314410046FB62 /* ViewController.swift */,
+				98DF21C42B9316950046FB62 /* AWSConstants.swift */,
 				98DF21A32B9314410046FB62 /* Main.storyboard */,
+				98A1D39B2B9456C4002A908F /* TabBarController.swift */,
 				98DF21A62B9314420046FB62 /* Assets.xcassets */,
 				98DF21A82B9314420046FB62 /* LaunchScreen.storyboard */,
 				98DF21AB2B9314420046FB62 /* Info.plist */,
+				98A1D3992B94332B002A908F /* ConnectionViewController.swift */,
+				98A1D39D2B945818002A908F /* SubscribeViewController.swift */,
+				98A1D39F2B94582B002A908F /* PublishViewController.swift */,
 			);
 			path = AWSIoTDemo;
+			sourceTree = "<group>";
+		};
+		98DF21B12B93154E0046FB62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98347CA82B946566009D4D1D /* AWSCognitoAuth.xcframework */,
+				98347CA92B946567009D4D1D /* AWSCognitoIdentityProvider.xcframework */,
+				98347CB02B94657D009D4D1D /* AWSIoT.xcframework */,
+				98347CAA2B946567009D4D1D /* AWSCognitoIdentityProviderASF.xcframework */,
+				98347CAE2B946571009D4D1D /* AWSCore.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +142,7 @@
 				98DF21962B9314410046FB62 /* Sources */,
 				98DF21972B9314410046FB62 /* Frameworks */,
 				98DF21982B9314410046FB62 /* Resources */,
+				98DF21BE2B9315B30046FB62 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,6 +177,8 @@
 				Base,
 			);
 			mainGroup = 98DF21912B9314410046FB62;
+			packageReferences = (
+			);
 			productRefGroup = 98DF219B2B9314410046FB62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98DF21A22B9314410046FB62 /* ViewController.swift in Sources */,
+				98DF21C52B9316950046FB62 /* AWSConstants.swift in Sources */,
+				98A1D39A2B94332B002A908F /* ConnectionViewController.swift in Sources */,
+				98A1D39E2B945818002A908F /* SubscribeViewController.swift in Sources */,
+				98A1D3A02B94582B002A908F /* PublishViewController.swift in Sources */,
+				98A1D39C2B9456C4002A908F /* TabBarController.swift in Sources */,
 				98DF219E2B9314410046FB62 /* AppDelegate.swift in Sources */,
 				98DF21A02B9314410046FB62 /* SceneDelegate.swift in Sources */,
 			);
@@ -290,8 +362,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AWSIoTDemo/AWSIoTDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N8S25KG6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AWSIoTDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -317,8 +391,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AWSIoTDemo/AWSIoTDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N8S25KG6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AWSIoTDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
